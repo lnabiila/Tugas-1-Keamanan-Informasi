@@ -206,7 +206,7 @@ for i in range(0, 16):
     rkb.append(putaran)
     rk.append(binerHex(putaran))
 
-teks = input("Teks yang ingin dienkripsi (maks 8 karakter): ")
+teks = input("Teks yang ingin dienkripsi: ")
 teksEnkripsii = teksEnkripsi(teks, rkb, rk)
 print("Hasil Enkripsi:", binerHex(teksEnkripsii))
 
